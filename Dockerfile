@@ -1,6 +1,6 @@
 FROM debian:9
 
-EXPOSE 24/tcp 143/tcp
+EXPOSE 24/tcp 143/tcp 993/tcp
 
 VOLUME /var/log/dovecot
 VOLUME /ssl
