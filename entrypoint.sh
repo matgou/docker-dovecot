@@ -37,4 +37,6 @@ do
 	sed -i "s:@@SSL_DIR@@:$SSL_DIR:g" $fic
 done
 
+rm -f /var/run/dovecot/master.pid
+
 svscan /etc/service
